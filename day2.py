@@ -66,5 +66,5 @@ print(int_32_tensor - 10)
 
 print(torch.mul(int_32_tensor, 10))
 print(torch.add(int_32_tensor, 10))
-print(torch.sub(int_32_tensor, 10, alpha=0))
+print(torch.sub(int_32_tensor, 10, alpha=2)) #In this case, alpha scales the number to be subtracted. 10*2=20. So, int_32_integer - 20.
 print(torch.subtract(int_32_tensor, 10))

@@ -1,6 +1,6 @@
 import torch
 #Create range of tensors and tensor-like
-one_to_ten = torch.arange(start=1, end=10, step=1)
+one_to_ten = torch.arange(start=1,end=10, step=1)
 print(one_to_ten) #ends in (end-1)
 
 # Creating tensors-like

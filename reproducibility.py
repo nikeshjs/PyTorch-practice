@@ -12,4 +12,4 @@ RANDOM_SEED = 42
 torch.manual_seed(RANDOM_SEED)
 tensor_c = torch.rand(3,4) #Flavours the tensor
 
-
+# Timestamp = 4:17:40

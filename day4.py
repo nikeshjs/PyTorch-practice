@@ -12,3 +12,7 @@ print(x[:,:,2])
 array = np.arange(1.0, 8.0)
 tensor = torch.from_numpy(array)
 print(array, "\n", tensor)
+
+# If any changes is made in numpy array, it does not change tensor. New tensor is created in memory.
+
+# Tensor to numpy array = torch.Tensor.numpy()
